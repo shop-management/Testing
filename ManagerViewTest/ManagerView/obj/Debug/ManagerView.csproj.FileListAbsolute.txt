@@ -1,0 +1,30 @@
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\ManagerView.exe.config
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.csprojResolveAssemblyReference.cache
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.CustomerView.resources
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.MainMenu.resources
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.ManagerView.resources
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.Properties.Resources.resources
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.csproj.GenerateResource.Cache
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\ManagerView.exe
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\ManagerView.pdb
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.dll
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.xml
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.exe
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.pdb
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\bin\Debug\ManagerView.exe.config
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\bin\Debug\ManagerView.exe
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\bin\Debug\ManagerView.pdb
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\bin\Debug\EntityFramework.dll
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\bin\Debug\EntityFramework.SqlServer.dll
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\bin\Debug\EntityFramework.xml
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\bin\Debug\EntityFramework.SqlServer.xml
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\obj\Debug\ManagerView.CustomerView.resources
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\obj\Debug\ManagerView.MainMenu.resources
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\obj\Debug\ManagerView.ManagerView.resources
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\obj\Debug\ManagerView.Properties.Resources.resources
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\obj\Debug\ManagerView.csproj.GenerateResource.Cache
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\obj\Debug\ManagerView.exe
+F:\AIUB Program\8th semester\2.Final Term\C#\Program\ManagerViewTest\ManagerView\obj\Debug\ManagerView.pdb
