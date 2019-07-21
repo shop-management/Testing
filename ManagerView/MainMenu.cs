@@ -73,8 +73,9 @@ namespace ManagerView
 
         private void btnLogout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Successfully LogOut", "Notification ", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            Close();
+            var LP = new LoginPage();
+            LP.Show();
+            this.Hide();
         }
     }
 }

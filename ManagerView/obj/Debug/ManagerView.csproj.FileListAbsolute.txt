@@ -14,3 +14,4 @@ D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\Enti
 D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.exe
 D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.pdb
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.LoginPage.resources
