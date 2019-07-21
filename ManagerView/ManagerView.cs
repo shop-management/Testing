@@ -139,5 +139,22 @@ namespace ManagerView
             context.Employees.Remove(employee);
             context.SaveChanges();
         }
+
+        private void txtSalary_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dgvEmpDetails_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btngid_Click(object sender, EventArgs e)
+        {
+            string a = txtb1.Text;
+            string b = txtb2.Text;
+            txtr.Text = a + "_" + b;
+        }
     }
 }

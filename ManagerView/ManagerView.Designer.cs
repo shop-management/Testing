@@ -30,9 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagerView));
             this.dgvEmpDetails = new System.Windows.Forms.DataGridView();
-            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
-            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
-            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EmpName = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.EmpContact = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,6 +37,9 @@
             this.Salary = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Password = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Status = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bunifuGradientPanel1 = new Bunifu.Framework.UI.BunifuGradientPanel();
+            this.bunifuImageButton2 = new Bunifu.Framework.UI.BunifuImageButton();
+            this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.label1 = new System.Windows.Forms.Label();
             this.txtId = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -63,10 +63,14 @@
             this.btnRefresh = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.txtStatus = new System.Windows.Forms.TextBox();
+            this.txtb2 = new System.Windows.Forms.TextBox();
+            this.txtb1 = new System.Windows.Forms.TextBox();
+            this.txtr = new System.Windows.Forms.TextBox();
+            this.btngid = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpDetails)).BeginInit();
             this.bunifuGradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvEmpDetails
@@ -88,50 +92,7 @@
             this.dgvEmpDetails.Size = new System.Drawing.Size(702, 463);
             this.dgvEmpDetails.TabIndex = 0;
             this.dgvEmpDetails.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmpDetails_CellClick);
-            // 
-            // bunifuGradientPanel1
-            // 
-            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
-            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuImageButton2);
-            this.bunifuGradientPanel1.Controls.Add(this.bunifuImageButton1);
-            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.MidnightBlue;
-            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.MediumSeaGreen;
-            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.DarkSlateGray;
-            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.DarkSlateGray;
-            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
-            this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1183, 54);
-            this.bunifuGradientPanel1.TabIndex = 1;
-            // 
-            // bunifuImageButton1
-            // 
-            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
-            this.bunifuImageButton1.ImageActive = null;
-            this.bunifuImageButton1.Location = new System.Drawing.Point(1010, 9);
-            this.bunifuImageButton1.Name = "bunifuImageButton1";
-            this.bunifuImageButton1.Size = new System.Drawing.Size(46, 39);
-            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton1.TabIndex = 0;
-            this.bunifuImageButton1.TabStop = false;
-            this.bunifuImageButton1.Zoom = 50;
-            // 
-            // bunifuImageButton2
-            // 
-            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
-            this.bunifuImageButton2.ImageActive = null;
-            this.bunifuImageButton2.Location = new System.Drawing.Point(1070, 9);
-            this.bunifuImageButton2.Name = "bunifuImageButton2";
-            this.bunifuImageButton2.Size = new System.Drawing.Size(46, 39);
-            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bunifuImageButton2.TabIndex = 1;
-            this.bunifuImageButton2.TabStop = false;
-            this.bunifuImageButton2.Zoom = 50;
-            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
+            this.dgvEmpDetails.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEmpDetails_CellContentClick);
             // 
             // ID
             // 
@@ -183,11 +144,55 @@
             this.Status.Name = "Status";
             this.Status.ReadOnly = true;
             // 
+            // bunifuGradientPanel1
+            // 
+            this.bunifuGradientPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuGradientPanel1.BackgroundImage")));
+            this.bunifuGradientPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuGradientPanel1.Controls.Add(this.bunifuImageButton2);
+            this.bunifuGradientPanel1.Controls.Add(this.bunifuImageButton1);
+            this.bunifuGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.bunifuGradientPanel1.GradientBottomLeft = System.Drawing.Color.MidnightBlue;
+            this.bunifuGradientPanel1.GradientBottomRight = System.Drawing.Color.MediumSeaGreen;
+            this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.DarkSlateGray;
+            this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.DarkSlateGray;
+            this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
+            this.bunifuGradientPanel1.Quality = 10;
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(1183, 54);
+            this.bunifuGradientPanel1.TabIndex = 1;
+            // 
+            // bunifuImageButton2
+            // 
+            this.bunifuImageButton2.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton2.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton2.Image")));
+            this.bunifuImageButton2.ImageActive = null;
+            this.bunifuImageButton2.Location = new System.Drawing.Point(1070, 9);
+            this.bunifuImageButton2.Name = "bunifuImageButton2";
+            this.bunifuImageButton2.Size = new System.Drawing.Size(46, 39);
+            this.bunifuImageButton2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton2.TabIndex = 1;
+            this.bunifuImageButton2.TabStop = false;
+            this.bunifuImageButton2.Zoom = 50;
+            this.bunifuImageButton2.Click += new System.EventHandler(this.bunifuImageButton2_Click);
+            // 
+            // bunifuImageButton1
+            // 
+            this.bunifuImageButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuImageButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuImageButton1.Image")));
+            this.bunifuImageButton1.ImageActive = null;
+            this.bunifuImageButton1.Location = new System.Drawing.Point(1010, 9);
+            this.bunifuImageButton1.Name = "bunifuImageButton1";
+            this.bunifuImageButton1.Size = new System.Drawing.Size(46, 39);
+            this.bunifuImageButton1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuImageButton1.TabIndex = 0;
+            this.bunifuImageButton1.TabStop = false;
+            this.bunifuImageButton1.Zoom = 50;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(856, 115);
+            this.label1.Location = new System.Drawing.Point(897, 497);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(25, 21);
             this.label1.TabIndex = 2;
@@ -196,7 +201,7 @@
             // txtId
             // 
             this.txtId.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtId.Location = new System.Drawing.Point(897, 114);
+            this.txtId.Location = new System.Drawing.Point(928, 63);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(219, 29);
             this.txtId.TabIndex = 3;
@@ -205,7 +210,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(829, 149);
+            this.label2.Location = new System.Drawing.Point(870, 397);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(52, 21);
             this.label2.TabIndex = 2;
@@ -214,7 +219,7 @@
             // txtName
             // 
             this.txtName.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(897, 148);
+            this.txtName.Location = new System.Drawing.Point(928, 97);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(219, 29);
             this.txtName.TabIndex = 3;
@@ -223,7 +228,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(818, 186);
+            this.label3.Location = new System.Drawing.Point(859, 447);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(63, 21);
             this.label3.TabIndex = 2;
@@ -232,7 +237,7 @@
             // txtContact
             // 
             this.txtContact.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtContact.Location = new System.Drawing.Point(897, 183);
+            this.txtContact.Location = new System.Drawing.Point(928, 132);
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(219, 29);
             this.txtContact.TabIndex = 3;
@@ -241,7 +246,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(788, 218);
+            this.label4.Location = new System.Drawing.Point(819, 167);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(93, 21);
             this.label4.TabIndex = 2;
@@ -251,7 +256,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(828, 252);
+            this.label5.Location = new System.Drawing.Point(859, 201);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(53, 21);
             this.label5.TabIndex = 2;
@@ -261,7 +266,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(805, 289);
+            this.label6.Location = new System.Drawing.Point(836, 238);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(76, 21);
             this.label6.TabIndex = 2;
@@ -270,7 +275,7 @@
             // txtDesignation
             // 
             this.txtDesignation.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDesignation.Location = new System.Drawing.Point(897, 217);
+            this.txtDesignation.Location = new System.Drawing.Point(928, 166);
             this.txtDesignation.Name = "txtDesignation";
             this.txtDesignation.Size = new System.Drawing.Size(219, 29);
             this.txtDesignation.TabIndex = 3;
@@ -278,15 +283,16 @@
             // txtSalary
             // 
             this.txtSalary.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSalary.Location = new System.Drawing.Point(897, 251);
+            this.txtSalary.Location = new System.Drawing.Point(928, 200);
             this.txtSalary.Name = "txtSalary";
             this.txtSalary.Size = new System.Drawing.Size(219, 29);
             this.txtSalary.TabIndex = 3;
+            this.txtSalary.TextChanged += new System.EventHandler(this.txtSalary_TextChanged);
             // 
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(897, 286);
+            this.txtPassword.Location = new System.Drawing.Point(928, 235);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(219, 29);
             this.txtPassword.TabIndex = 3;
@@ -295,7 +301,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(785, 324);
+            this.label7.Location = new System.Drawing.Point(816, 273);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(96, 21);
             this.label7.TabIndex = 2;
@@ -304,7 +310,7 @@
             // txtJoiningDate
             // 
             this.txtJoiningDate.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtJoiningDate.Location = new System.Drawing.Point(897, 321);
+            this.txtJoiningDate.Location = new System.Drawing.Point(928, 270);
             this.txtJoiningDate.Name = "txtJoiningDate";
             this.txtJoiningDate.Size = new System.Drawing.Size(219, 29);
             this.txtJoiningDate.TabIndex = 3;
@@ -339,7 +345,7 @@
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(870, 400);
+            this.btnNew.Location = new System.Drawing.Point(901, 349);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(86, 34);
             this.btnNew.TabIndex = 5;
@@ -349,7 +355,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(962, 400);
+            this.btnDelete.Location = new System.Drawing.Point(993, 349);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(86, 34);
             this.btnDelete.TabIndex = 5;
@@ -359,7 +365,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(1054, 400);
+            this.btnSave.Location = new System.Drawing.Point(1085, 349);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(86, 34);
             this.btnSave.TabIndex = 5;
@@ -380,7 +386,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(785, 359);
+            this.label9.Location = new System.Drawing.Point(816, 308);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(52, 21);
             this.label9.TabIndex = 2;
@@ -389,16 +395,54 @@
             // txtStatus
             // 
             this.txtStatus.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStatus.Location = new System.Drawing.Point(897, 356);
+            this.txtStatus.Location = new System.Drawing.Point(928, 305);
             this.txtStatus.Name = "txtStatus";
             this.txtStatus.Size = new System.Drawing.Size(219, 29);
             this.txtStatus.TabIndex = 3;
+            // 
+            // txtb2
+            // 
+            this.txtb2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtb2.Location = new System.Drawing.Point(952, 444);
+            this.txtb2.Name = "txtb2";
+            this.txtb2.Size = new System.Drawing.Size(219, 29);
+            this.txtb2.TabIndex = 7;
+            // 
+            // txtb1
+            // 
+            this.txtb1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtb1.Location = new System.Drawing.Point(952, 394);
+            this.txtb1.Name = "txtb1";
+            this.txtb1.Size = new System.Drawing.Size(219, 29);
+            this.txtb1.TabIndex = 8;
+            // 
+            // txtr
+            // 
+            this.txtr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtr.Location = new System.Drawing.Point(952, 494);
+            this.txtr.Name = "txtr";
+            this.txtr.Size = new System.Drawing.Size(219, 29);
+            this.txtr.TabIndex = 9;
+            // 
+            // btngid
+            // 
+            this.btngid.Location = new System.Drawing.Point(1021, 544);
+            this.btngid.Name = "btngid";
+            this.btngid.Size = new System.Drawing.Size(86, 34);
+            this.btngid.TabIndex = 10;
+            this.btngid.Text = "ID";
+            this.btngid.UseVisualStyleBackColor = true;
+            this.btngid.Click += new System.EventHandler(this.btngid_Click);
             // 
             // ManagerView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1183, 601);
+            this.Controls.Add(this.btngid);
+            this.Controls.Add(this.txtb2);
+            this.Controls.Add(this.txtb1);
+            this.Controls.Add(this.txtr);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnDelete);
@@ -430,8 +474,8 @@
             this.Load += new System.EventHandler(this.ManagerView_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEmpDetails)).EndInit();
             this.bunifuGradientPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuImageButton1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -473,6 +517,10 @@
         private System.Windows.Forms.Button btnRefresh;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtStatus;
+        private System.Windows.Forms.TextBox txtb2;
+        private System.Windows.Forms.TextBox txtb1;
+        private System.Windows.Forms.TextBox txtr;
+        private System.Windows.Forms.Button btngid;
 
     }
 }

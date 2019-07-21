@@ -1,0 +1,16 @@
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\ManagerView.exe.config
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.csprojResolveAssemblyReference.cache
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.CustomerView.resources
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.MainMenu.resources
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.ManagerView.resources
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.Properties.Resources.resources
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.csproj.GenerateResource.Cache
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\ManagerView.exe
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\ManagerView.pdb
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.dll
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.xml
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.exe
+D:\Projects\C# Final project\SSMS\SSMS_Master\Testing\ManagerView\obj\Debug\ManagerView.pdb
